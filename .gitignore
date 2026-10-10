@@ -1,0 +1,38 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local environment / secrets
+.env
+
+# VS Code
+.vscode/
+
+# Playwright / pytest generated artifacts
+auth_state.json
+reports/
+test-results/
+playwright-report/
+
+# Temporary / debug files
+dom_output.txt
+*.log
+*.tmp
+*.bak
+
+# Local backup scripts
+*_backup.py
+*_old.py
+
+# OS files
+Thumbs.db
+.DS_Store
+# Local sensitive-data scan
+scan_sensitive.py
+scan_sensitive.ps1

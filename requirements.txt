@@ -1,0 +1,16 @@
+# Core testing framework
+pytest==9.1.1
+
+# HTTP API testing
+requests
+
+# Web UI automation
+playwright
+pytest-playwright==0.10.0
+
+# HTML test reports
+pytest-html==4.2.0
+pytest-metadata==3.1.1
+
+# Environment variable management
+python-dotenv
